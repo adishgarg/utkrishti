@@ -1,0 +1,19 @@
+.header {
+  background: linear-gradient(90deg, #6B8FED 0%, #D272CC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section{
+  position: relative;
+  height: 300vh; /* Adjust based on your content's needs */
+  background-color: orange; /* For visibility */
+}
+
+.stickyboi {
+  position: sticky;
+  top: 0;
+  height: 100vh; /* Full viewport height */
+  background-color: purple; /* For visibility */
+}
