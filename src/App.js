@@ -3,12 +3,21 @@ import Hero from './components/hero.jsx';
 import Overview from './components/overview.jsx';
 import Socials from './components/socials.jsx';
 import {motion, transform} from 'framer-motion';
+import Sponsors from './components/sponsors.jsx';
 
 function App() {
 
   return (
    <>
    <Hero/>
+   <motion.div
+   initial={{opacity:0}}
+   whileInView={{opacity:1}}
+   viewport={{margin: "-500px",}}
+   transition={{duration: 1.5}}
+    >
+   <Sponsors/>
+   </motion.div>
       <div className='h-96'>
       <motion.div
    initial={{opacity:0}}

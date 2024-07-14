@@ -29,11 +29,7 @@ const Hero = ()=> {
 return (
     <div className='cont'>
     <div className='hero z-10 absolute'>
-        <nav className="bg-transparent p-4 flex justify-between items-center z-20">
-            <img src="image/favicon.jpg" alt="Favicon" className="h-36" />
-            <img src="chitkaralogo (2) 3.png" className='h-36'/>
-        </nav>
-        <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 items-start lg:items-center mb-8 justify-center align-middle mt-16 z-20">
+        <div className="flex flex-col justify-center items-center h-screen -translate-y-4">
             <div className="text-white text-left">
                 <h1 className="header text-9xl font-bold mb-4">UTKRISHTI</h1>
                 <p className='text-2xl ml-14'>A Tech Odyssey for Career Advancement and Innovation</p>
